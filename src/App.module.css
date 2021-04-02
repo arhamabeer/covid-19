@@ -1,0 +1,33 @@
+body{
+    background: #ccceca;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.createdAAA{
+    color: black;
+    margin-right: -85%;
+    margin-top: 3%;
+    font-style: oblique;
+    text-decoration: underline;
+    opacity: 0.7;
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    img{
+        margin-bottom: 20px;
+    }
+    .createdAAA{
+        color: black;
+        margin-right: 0 !important;
+        opacity: 0.7;
+        margin-top: 3%;
+        font-style: oblique;
+        text-decoration: underline;
+    }
+}

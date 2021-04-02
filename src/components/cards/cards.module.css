@@ -1,0 +1,73 @@
+.container{
+    margin: 0px !important;
+    
+}
+
+.card{
+    margin: 2% 2% !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 440px !important;
+    height: 250px !important;
+
+} 
+
+
+.infected{
+    border-top: 10px solid #ad0000 !important;
+    border-bottom: 10px solid #ad0000 !important;
+    border-left: 2px solid  #ad0000 !important;
+    border-right: 2px solid  #ad0000 !important;
+    opacity: 0.85 !important;
+}
+.infected:hover{
+    color: white;
+    background-color: #b16060;
+   
+    transition: background-color 400ms linear;
+    transition: color 400ms linear;
+}
+.recovered{
+    border-bottom: 10px solid  #3b9400 !important;
+    border-top: 10px solid  #3b9400 !important;
+    border-left: 2px solid  #3b9400 !important;
+    border-right: 2px solid  #3b9400 !important;
+    opacity: 0.85 !important;
+}
+.recovered:hover{
+    color: white;
+    background-color: #819c6e;
+    transition: background-color 400ms linear;
+    transition: color 400ms linear;
+}
+.deaths{
+    border-top: 10px solid  black !important;
+    border-left: 2px solid   black !important;
+    border-right: 2px solid   black !important;
+    border-bottom: 10px solid  black !important;
+    opacity: 0.85 !important;
+}
+.deaths:hover{
+    color: white;
+    background-color: rgb(112, 98, 98);
+    transition: background-color 400ms linear;
+    transition: color 400ms linear;
+}
+.main-grid-cov{
+    width: 100% !important;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .card{
+        width: 100% !important;
+        margin: 1% 2% !important;
+        }
+    .container{
+        margin-bottom: 20px !important;
+    }
+    .main-grid-cov{
+        width: 100% !important;
+    }
+}
